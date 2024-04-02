@@ -17,4 +17,9 @@ public class Pet extends Animal{
     public void setHomeAddress(String address) {
         this.homeAddress = address;
     }
+
+    @Override
+    public String toString() {
+        return "Animal [name=" + getName() + ", sex=" + getSex() + ", birthday=" + getBirthday() + ", command List=" + getCmdList() + ", address=" + homeAddress +"]";
+    }
 }

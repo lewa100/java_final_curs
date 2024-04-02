@@ -1,5 +1,7 @@
 package Domain;
 
+import java.text.Format;
+import java.time.format.DateTimeFormatter;
 import java.util.Date;
 
 public abstract class Animal {
@@ -25,6 +27,11 @@ public abstract class Animal {
 
     public Date getBirthday() {
         return birthday;
+    }
+
+    public Format getBirthdayInString() {
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd.MM.yyyy");
+        return formatter.toFormat();
     }
 
     public void setBirthday(Date biDate) {
