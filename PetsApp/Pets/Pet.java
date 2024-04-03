@@ -61,4 +61,8 @@ public abstract class Pet  implements iAnimalDB{
     public void setCmdList(ArrayList<String> cmdList) {
         this.commandList = cmdList;
     }
+
+    public void addCmdInList(String cmdList) {
+        this.commandList.add(cmdList);
+    }
 }

@@ -3,13 +3,11 @@ package Pets;
 import java.util.Iterator;
 import java.util.List;
 
-import Nursery.PetGenerator;
-
-public class PetIterator implements Iterator<PetGenerator> {
+public class PetIterator implements Iterator<Pet> {
     private int counter;
-    private final List<PetGenerator> pets;
+    private final List<Pet> pets;
     
-    public PetIterator(List<PetGenerator> pets) {
+    public PetIterator(List<Pet> pets) {
         this.pets = pets;
         this.counter = 0;
     }
@@ -19,7 +17,7 @@ public class PetIterator implements Iterator<PetGenerator> {
        return counter<pets.size();
     }
     @Override
-    public PetGenerator next() {
+    public Pet next() {
         if(!hasNext())
         {
             return null;

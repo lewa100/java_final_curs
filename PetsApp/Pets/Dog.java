@@ -18,15 +18,19 @@ public class Dog extends Pet{
     }
 
     @Override
-    public boolean leaningCommand(String cmd) {
-        var list = super.getCmdList();
-        list.add(cmd);
-        super.setCmdList(list);
-        return true;
+    public void addPet(Pet pet) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'addPet'");
     }
 
     @Override
-    public ArrayList<String>  getAnimalCmdList() {
-        return super.getCmdList();
+    public void getCmdListByID(int id) {
+        super.getCmdList();
+    }
+
+    @Override
+    public void addCmdInList(int id, String cmdList) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'addCmdInList'");
     }
 }

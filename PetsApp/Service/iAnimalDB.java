@@ -1,11 +1,13 @@
 package Service;
-import java.util.ArrayList;
+
+import Pets.Pet;
 
 public interface iAnimalDB {
-    boolean leaningCommand(String cmd);
-    ArrayList<String> getAnimalCmdList();
     int getID();
     void toDo();
     String getName();
     String getBirthday();
+    void addPet(Pet pet);
+    void getCmdListByID(int id) throws Exception;
+    void addCmdInList(int id,String cmdList) throws Exception;
 }
