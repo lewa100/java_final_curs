@@ -1,8 +1,6 @@
 package Pets;
 
 import java.util.Date;
-
-import Domain.Counter;
 import Service.iAnimalDB;
 
 import java.text.Format;

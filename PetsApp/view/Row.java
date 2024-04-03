@@ -68,15 +68,6 @@ public class Row {
         }
     }
 
-    private static boolean isSexValid(String s) {
-        if(s.length() == 1) {
-            if (s.equals("m") || s.equals("f")) {
-                return true;
-            }
-        }
-        return false;
-    }
-
     public String getName(){
         return this.name;
     }
@@ -89,6 +80,3 @@ public class Row {
         return this.commandList;
     }
 }
-
-//ivanov kostya ivanovich 10.10.2022 79998887766 m
-//lunina sveta ivanovich 10.10.2022 79998887766 f

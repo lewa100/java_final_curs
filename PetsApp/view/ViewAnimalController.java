@@ -5,7 +5,6 @@ import java.util.Scanner;
 import Domain.Counter;
 import Pets.*;
 import Service.iAnimalDB;
-import view.Row;
 
 public class ViewAnimalController {
 
