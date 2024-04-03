@@ -15,8 +15,8 @@ public abstract class Pet  implements iAnimalDB{
     private Date birthday;
     private ArrayList<String> commandList;
     
-    public Pet(String name, Date birthday, ArrayList<String> cmdList) {
-        this.id = Counter.add();
+    public Pet(int id, String name, Date birthday, ArrayList<String> cmdList) {
+        this.id = id;
         this.name = name;
         this.birthday = birthday;
         if (cmdList == null){

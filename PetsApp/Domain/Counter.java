@@ -1,9 +1,14 @@
 package Domain;
 
-public class Counter {
+public class Counter implements AutoCloseable {
     private static int startIndex = 0;
     
-    static public int add(){
+    public int add(){
         return ++startIndex;
+    }
+
+    @Override
+    public void close() {
+        System.out.println("Counter closed");
     }
 }

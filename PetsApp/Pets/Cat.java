@@ -4,8 +4,8 @@ import java.util.Date;
 import java.util.ArrayList;
 
 public class Cat extends Pet{
-    public Cat(String name, Date birthday, ArrayList<String> cmdList) {
-        super(name, birthday,cmdList);
+    public Cat(int id, String name, Date birthday, ArrayList<String> cmdList) {
+        super(id, name, birthday,cmdList);
     }
 
     public void toMeow() {

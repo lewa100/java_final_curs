@@ -5,8 +5,8 @@ import java.util.Date;
 import java.util.ArrayList;
 
 public class Hamster extends Pet{
-    public Hamster(String name, Date birthday, ArrayList<String>  cmdList) {
-        super(name, birthday,cmdList);
+    public Hamster(int id,String name, Date birthday, ArrayList<String>  cmdList) {
+        super(id,name, birthday,cmdList);
     }
 
     public void toStockedUp() {
