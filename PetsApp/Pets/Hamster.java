@@ -14,11 +14,6 @@ public class Hamster extends Pet{
     }
 
     @Override
-    public void toDo() {
-        toStockedUp();
-    }
-
-    @Override
     public void getCmdListByID(int id) {
         super.getCmdList();
     }

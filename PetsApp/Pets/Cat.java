@@ -13,11 +13,6 @@ public class Cat extends Pet{
     }
 
     @Override
-    public void toDo() {
-        toMeow();
-    }
-
-    @Override
     public void getCmdListByID(int id) {
         super.getCmdList();
     }

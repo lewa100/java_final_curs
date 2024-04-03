@@ -13,11 +13,6 @@ public class Dog extends Pet{
     }
 
     @Override
-    public void toDo() {
-        toBark();
-    }
-
-    @Override
     public void addPet(Pet pet) {
         // TODO Auto-generated method stub
         throw new UnsupportedOperationException("Unimplemented method 'addPet'");

@@ -45,30 +45,6 @@ public final class AnimalDB implements iAnimalDB {
     }
 
     @Override
-    public void toDo() {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'open'");
-    }
-
-    @Override
-    public String getName() {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'getName'");
-    }
-
-    @Override
-    public String getBirthday() {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'getBirthday'");
-    }
-
-    @Override
-    public int getID() {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'getID'");
-    }
-
-    @Override
     public void getCmdListByID(int id) throws Exception{
         System.out.println("Питомец знает команды: " + getCommandListByID(id));
     }
